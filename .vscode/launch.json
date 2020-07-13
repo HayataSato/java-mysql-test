@@ -12,12 +12,10 @@
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-Test<TestDB_abea0abd>",
+            "name": "Debug (Launch)-MySqlTest<MySqlTest>",
             "request": "launch",
-            "cwd": "${workspaceFolder}/src",
-            "mainClass": "Test",
-            "projectName": "TestDB_abea0abd",
-            "classPaths": [":/usr/share/java/mysql-connector-java-8.0.20.jar"]
+            "mainClass": "MySqlTest.MySqlTest",
+            "projectName": "MySqlTest"
         }
     ]
 }

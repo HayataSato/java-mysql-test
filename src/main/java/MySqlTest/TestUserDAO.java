@@ -1,10 +1,12 @@
+package MySqlTest;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * 特定のQueryのStatementを用意して実行するクラス
+ * 特定のQueryのStatementを用意して実行するクラス (Data Access Object)
  */
 public class TestUserDAO {
     String name = "";

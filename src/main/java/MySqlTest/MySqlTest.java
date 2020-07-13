@@ -1,4 +1,6 @@
-public class Test {
+package MySqlTest;
+
+public class MySqlTest {
     public static void main(String[] args) {
         TestUserDAO dao = new TestUserDAO();
         dao.select("taro", "123");
