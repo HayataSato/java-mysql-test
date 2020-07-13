@@ -1,4 +1,4 @@
--- root dir から mysql -u user -p でログイン後、source ./sql/testdb.sql で実行可能
+-- root dir から mysql -u DB_USER -p でログイン後、source ./sql/testdb.sql で実行可能
 
 drop database if exists testdb;
 create database testdb;
